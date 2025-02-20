@@ -14,7 +14,7 @@ results = pd.DataFrame({'Вступники': applicants_by_college, 'Здобу
 
 print(results)
 
-------------------------------------------------------------------------------------
+
 # Зчитуємо таблиці
 data_education = pd.read_excel('/content/[ПР №3] zfpo_rivne_region (3).xlsx', sheet_name='Здобувачі')
 data_admissions = pd.read_excel('/content/[ПР №3] zfpo_rivne_region (3).xlsx', sheet_name='Вступ групи')
