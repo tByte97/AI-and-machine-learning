@@ -19,5 +19,4 @@ for *box, conf, cls in predictions:
     label = labels[int(cls)]
     print(f"Detected {label} with confidence {conf:.2f}")
 
-# Якщо хочете зберегти зображення з розпізнаними об'єктами
-results.save()  # Збереження результатів у поточний каталог
+results.save()
